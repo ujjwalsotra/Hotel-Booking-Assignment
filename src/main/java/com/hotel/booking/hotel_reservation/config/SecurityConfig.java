@@ -30,7 +30,7 @@ public class SecurityConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
-                        .allowedOrigins("http://localhost:5173") // your frontend
+                        .allowedOrigins("https://hotel-booking-assignment-1-r1zo.onrender.com/") // your frontend
                         .allowedMethods("*")
                         .allowedHeaders("*")
                         .allowCredentials(true);
